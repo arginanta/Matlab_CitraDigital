@@ -1,0 +1,13 @@
+clc; clear; close all;
+Argi=imread('D:\Kuliah Informatika UMSIDA\Semester 7\Pengolahan Citra Digital\191080200230\191080200230_PCD_MATLAB\1.jpg');
+subplot(2,2,1);
+imshow(Argi);
+title('Sebelum');
+subplot(2,2,2);
+imhist(Argi);
+Argi1 = 1.5* Argi;
+subplot(2,2,3);
+imshow(Argi1);
+title('Sesudah');
+subplot(2,2,4);
+imhist(Argi1);
